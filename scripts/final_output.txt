@@ -324,11 +324,11 @@
     }},
 { value : "Beyond Beautiful by Aerosmith", 
         data : {
-        shortname : "BeyondBeautiful",
+        shortname : "beyondbeautiful",
         title : "Beyond Beautiful",
         artist : "Aerosmith",
-        gpath : "",
-        gscore : "",
+        gpath : "3/NN, 3/4th Y, 2/NN, 2/2nd R",
+        gscore : "308893",
         g_image : "'beyondbeautiful_guitar.png'"
     }},
 { value : "Sabotage by Beastie Boys", 
@@ -891,11 +891,11 @@
     }},
 { value : "Cat Scratch Fever by Ted Nugent", 
         data : {
-        shortname : "CatScratchFever",
+        shortname : "catscratchfever",
         title : "Cat Scratch Fever",
         artist : "Ted Nugent",
-        gpath : "",
-        gscore : "",
+        gpath : "2/12th G, 2/NN, 3/3rd YB, 2/13th Y",
+        gscore : "273049",
         g_image : "'catscratchfever_guitar.png'"
     }},
 { value : "Walk This Way by Run-D.M.C. ft. Aerosmith", 
