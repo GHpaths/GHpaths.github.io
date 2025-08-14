@@ -1,213 +1,285 @@
+GH3:
 minuscelsius:
   title: Minus Celsius
   artist: Backyard Babies
+
 thrufireandflames:
   title: Through the Fire and Flames
   artist: DragonForce
+
 stricken:
   title: Stricken
   artist: Disturbed
+
 numberofthebeast:
   title: The Number of the Beast
   artist: Iron Maiden
+
 impulse:
   title: Impulse
   artist: An Endless Sporadic
+
 themetal:
   title: The Metal
   artist: Tenacious D
+
 nothingformehere:
   title: Nothing for Me Here
   artist: Dope
+
 bullsonparade:
   title: Bulls on Parade
   artist: Rage Against the Machine
+
 gothatfar:
   title: Go That Far
   artist: Bret Michaels Band
+
 cliffsofdover:
   title: Cliffs of Dover
   artist: Eric Johnson
+
 inlove:
   title: In Love
   artist: Scouts of St. Sebastian
+
 radiosong:
   title: Radio Song
   artist: Superbus
+
 takethislife:
   title: Take This Life
   artist: In Flames
+
 imintheband:
   title: I'm in the Band
   artist: The Hellacopters
+
 sabotage:
   title: Sabotage
   artist: Beastie Boys
+
 blacksunshine:
   title: Black Sunshine
   artist: White Zombie
+
 hierkommtalex:
   title: Hier kommt Alex
   artist: Die Toten Hosen
+
 anarchyintheuk:
   title: Anarchy in the U.K.
   artist: Sex Pistols
+
 reptilia:
   title: Reptilia
   artist: The Strokes
+
 rocknrollallnite:
   title: Rock and Roll All Nite
   artist: Kiss
+
 cantbesaved:
   title: Can't Be Saved
   artist: Senses Fail
+
 metalheavylady:
   title: Metal Heavy Lady
   artist: Lions
+
 blackmagicwoman:
   title: Black Magic Woman
   artist: Santana
+
 beforeiforget:
   title: Before I Forget
   artist: Slipknot
+
 theseeker:
   title: The Seeker
   artist: The Who
+
 sunshineofyourlove:
   title: Sunshine of Your Love
   artist: Cream
+
 laydown:
   title: Lay Down
   artist: Priestess
+
 dontholdback:
   title: Don't Hold Back
   artist: The Sleeping
+
 cultofpersonality:
   title: Cult of Personality
   artist: Living Colour
+
 evenflow:
   title: Even Flow
   artist: Pearl Jam
+
 hitmewithyourbestshot:
   title: Hit Me With Your Best Shot
   artist: Pat Benatar
+
 welcometothejungle:
   title: Welcome to the Jungle
   artist: Guns N' Roses
+
 thewayitends:
   title: The Way It Ends
   artist: Prototype
+
 missmurder:
   title: Miss Murder
   artist: AFI
+
 threesandsevens:
   title: 3's & 7's
   artist: Queens of the Stone Age
+
 ruby:
   title: Ruby
   artist: Kaiser Chiefs
+
 mycurse:
   title: My Curse
   artist: Killswitch Engage
+
 monsters:
   title: Monsters
   artist: Matchbook Romance
+
 cherubrock:
   title: Cherub Rock
   artist: The Smashing Pumpkins
+
 rainingblood:
   title: Raining Blood
   artist: Slayer
+
 lagrange:
   title: La Grange
   artist: ZZ Top
+
 one:
   title: One
   artist: Metallica
+
 prayeroftherefugee:
   title: Prayer of the Refugee
   artist: Rise Against
+
 paintitblack:
   title: Paint It Black
   artist: The Rolling Stones
+
 fcpremix:
   title: F.C.P.R.E.M.I.X.
   artist: The Fall of Troy
+
 citiesonflame:
   title: Cities on Flame with Rock and Roll
   artist: Blue Öyster Cult
+
 avalancha:
   title: Avalancha
   artist: Héroes del Silencio
+
 rockulikeahurricane:
   title: Rock You Like a Hurricane
   artist: Scorpions
+
 generationrock:
   title: Generation Rock
   artist: Revolverheld
+
 holidayincambodia:
   title: Holiday in Cambodia
   artist: Dead Kennedys
+
 downndirty:
   title: Down 'n' Dirty
   artist: L.A. Slum Lords
+
 slowride:
   title: Slow Ride
   artist: Foghat
+
 schoolsout:
   title: School's Out
   artist: Alice Cooper
+
 shebangsadrum:
   title: She Bangs the Drums
   artist: The Stone Roses
+  
 mauvaisgarcon:
   title: Mauvais Garçon
   artist: Naast
+
 sameoldsonganddance:
   title: Same Old Song and Dance
   artist: Aerosmith
+
 pridenjoy:
   title: Pride and Joy
   artist: Stevie Ray Vaughan
+
 barracuda:
   title: Barracuda
   artist: Heart
+
 mynameisjonas:
   title: My Name Is Jonas
   artist: Weezer
+
 talkdirtytome:
   title: Talk Dirty to Me
   artist: Poison
+
 whenyouwereyoung:
   title: When You Were Young
   artist: The Killers
+
 koolthing:
   title: Kool Thing
   artist: Sonic Youth
+
 knightsofcydonia:
   title: Knights of Cydonia
   artist: Muse
+
 suckmykiss:
   title: Suck My Kiss
   artist: Red Hot Chili Peppers
+
 mississippiqueen:
   title: Mississippi Queen
   artist: Mountain
+
 helicopter:
   title: Helicopter
   artist: Bloc Party
+
 paranoid:
   title: Paranoid
   artist: Black Sabbath
+
 storyofmylife:
   title: Story of My Life
   artist: Social Distortion
+
 closer:
   title: Closer
   artist: Lacuna Coil
+
 bellyofashark:
   title: In the Belly of a Shark
   artist: Gallows
+
+GHA:
 
 pink:
   title: "Pink"
@@ -344,6 +416,7 @@ hardtohandle:
 completecontrol:
   title: "Complete Control"
   artist: "The Clash"
+  
 
 brightlightfright:
   title: "Bright Light Fright"
@@ -376,6 +449,8 @@ letthemusicdothetalking:
 alwaysontherun:
   title: "Always on the Run"
   artist: "Lenny Kravitz"
+
+GH3 DLC:
 
 dlc3:
   title: "All My Life"

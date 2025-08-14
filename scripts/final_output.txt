@@ -1,0 +1,1611 @@
+{ value : "Minus Celsius by Backyard Babies", 
+        data : {
+        shortname : "minuscelsius",
+        title : "Minus Celsius",
+        artist : "Backyard Babies",
+        gpath : "2/4th GB, 2/1st B, 2/NN, 1/NN, 2/4th R",
+        gscore : "282873",
+        g_image : "'minuscelsius_guitar.png'"
+    }},
+{ value : "Sleeping Giant by Mastodon", 
+        data : {
+        shortname : "dlc13",
+        title : "Sleeping Giant",
+        artist : "Mastodon",
+        gpath : "3/5.5 beats after 1st O, 3/7th RYB, 2/1st RYB, 4/0.52 beats after 12th R, 2/16th R, 2/NN",
+        gscore : "492843",
+        g_image : "'dlc13_guitar.png'"
+    }},
+{ value : "Jukebox Hero by Foreigner", 
+        data : {
+        shortname : "dlc24",
+        title : "Jukebox Hero",
+        artist : "Foreigner",
+        gpath : "3/5th G, 2/1st O, 3/2nd GYB",
+        gscore : "245801",
+        g_image : "'dlc24_guitar.png'"
+    }},
+{ value : "Violet Hill by Coldplay", 
+        data : {
+        shortname : "dlc71",
+        title : "Violet Hill",
+        artist : "Coldplay",
+        gpath : "4/1st RY, 2/3rd R, 2/1st YO",
+        gscore : "161602",
+        g_image : "'dlc71_guitar.png'"
+    }},
+{ value : "(We Are) The Road Crew by Motörhead", 
+        data : {
+        shortname : "dlc46",
+        title : "(We Are) The Road Crew",
+        artist : "Motörhead",
+        gpath : "2/55th R, 3/5th B, 2/NN",
+        gscore : "260631",
+        g_image : "'dlc46_guitar.png'"
+    }},
+{ value : "Suicide & Redemption J.H. by Metallica", 
+        data : {
+        shortname : "dlc92",
+        title : "Suicide & Redemption J.H.",
+        artist : "Metallica",
+        gpath : "2/15th G, 2/1st YO, 2/9th YB, 2/7th R, 2/6th RY, 2/36th R, 3/2nd GR",
+        gscore : "720335",
+        g_image : "'dlc92_guitar.png'"
+    }},
+{ value : "Famous for Nothing by Dropkick Murphys", 
+        data : {
+        shortname : "dlc38",
+        title : "Famous for Nothing",
+        artist : "Dropkick Murphys",
+        gpath : "2/1st YBO, 3/2nd YBO, 3/NN",
+        gscore : "460282",
+        g_image : "'dlc38_guitar.png'"
+    }},
+{ value : "Pink by Aerosmith", 
+        data : {
+        shortname : "pink",
+        title : "Pink",
+        artist : "Aerosmith",
+        gpath : "3/1st O, 2/7.6 beats after NN, 3/NN",
+        gscore : "265222",
+        g_image : "'pink_guitar.png'"
+    }},
+{ value : "She Sells Sanctuary by The Cult", 
+        data : {
+        shortname : "shesellssanctuary",
+        title : "She Sells Sanctuary",
+        artist : "The Cult",
+        gpath : "2/6th YO, 2/1st RYB, 2/3rd Y, 2/6th RY, 2/NN, 2/NN",
+        gscore : "384710",
+        g_image : "'shesellssanctuary_guitar.png'"
+    }},
+{ value : "Excuse Me Mr. by No Doubt", 
+        data : {
+        shortname : "dlc29",
+        title : "Excuse Me Mr.",
+        artist : "No Doubt",
+        gpath : "2/6th YB, 2/7th RY, 4/0.48 beats after 7th RY",
+        gscore : "354080",
+        g_image : "'dlc29_guitar.png'"
+    }},
+{ value : "Through the Fire and Flames by DragonForce", 
+        data : {
+        shortname : "thrufireandflames",
+        title : "Through the Fire and Flames",
+        artist : "DragonForce",
+        gpath : "3/10th G, 2/2nd RY, 2/0.92 beats after 2nd GRY, 1/NN, 2/8th B, 2/42nd G, 1/10th G, 3/10th R, 2/1st R, 3/2nd Y, 4/1st YB",
+        gscore : "992358",
+        g_image : "'thrufireandflames_guitar.png'"
+    }},
+{ value : "Stricken by Disturbed", 
+        data : {
+        shortname : "stricken",
+        title : "Stricken",
+        artist : "Disturbed",
+        gpath : "2/2nd GRB, 2/1st GRB, 3/NN, 2/2nd GYB, 2/NN",
+        gscore : "541664",
+        g_image : "'stricken_guitar.png'"
+    }},
+{ value : "Tom Morello Guitar Battle by Tom Morello", 
+        data : {
+        shortname : "dlc1",
+        title : "Tom Morello Guitar Battle",
+        artist : "Tom Morello",
+        gpath : "2/1st G, 2/6th Y, 2/NN, 2/NN, 3/NN, 1/NN",
+        gscore : "441400",
+        g_image : "'dlc1_guitar.png'"
+    }},
+{ value : "The Number of the Beast by Iron Maiden", 
+        data : {
+        shortname : "numberofthebeast",
+        title : "The Number of the Beast",
+        artist : "Iron Maiden",
+        gpath : "2/22nd G, 2/NN, 2/5th R, 3/34th RBO",
+        gscore : "627640",
+        g_image : "'numberofthebeast_guitar.png'"
+    }},
+{ value : "My Apocalypse by Metallica", 
+        data : {
+        shortname : "dlc83",
+        title : "My Apocalypse",
+        artist : "Metallica",
+        gpath : "3/6th G, 2/4th G, 2/2nd G, 2/2nd BO, 3/8th G",
+        gscore : "559601",
+        g_image : "'dlc83_guitar.png'"
+    }},
+{ value : "All Day and All of the Night by The Kinks", 
+        data : {
+        shortname : "alldayandallofthenight",
+        title : "All Day and All of the Night",
+        artist : "The Kinks",
+        gpath : "3/NN, 1/2nd G, 3/8th YO",
+        gscore : "248448",
+        g_image : "'alldayandallofthenight_guitar.png'"
+    }},
+{ value : "Impulse by An Endless Sporadic", 
+        data : {
+        shortname : "impulse",
+        title : "Impulse",
+        artist : "An Endless Sporadic",
+        gpath : "2/8th Y, 3/2nd G, 2/NN, 2/1 beats after 6th G, 2/2nd R",
+        gscore : "338126",
+        g_image : "'impulse_guitar.png'"
+    }},
+{ value : "Super Massive Black Hole by Muse", 
+        data : {
+        shortname : "dlc35",
+        title : "Super Massive Black Hole",
+        artist : "Muse",
+        gpath : "2/7th G, 2/1st G, 2/NN, 2/NN, 2/NN",
+        gscore : "178090",
+        g_image : "'dlc35_guitar.png'"
+    }},
+{ value : "The Metal by Tenacious D", 
+        data : {
+        shortname : "themetal",
+        title : "The Metal",
+        artist : "Tenacious D",
+        gpath : "2/20th GR, 2/1st RBO, 2/2nd GR, 2/1st G",
+        gscore : "289266",
+        g_image : "'themetal_guitar.png'"
+    }},
+{ value : "Nothing for Me Here by Dope", 
+        data : {
+        shortname : "nothingformehere",
+        title : "Nothing for Me Here",
+        artist : "Dope",
+        gpath : "2/1st YO, 2/10th RY, 3/2nd YO, 2/9th Y",
+        gscore : "288299",
+        g_image : "'nothingformehere_guitar.png'"
+    }},
+{ value : "Bulls on Parade by Rage Against the Machine", 
+        data : {
+        shortname : "bullsonparade",
+        title : "Bulls on Parade",
+        artist : "Rage Against the Machine",
+        gpath : "3/After 0 beats, 2/After 0.51 beats, 3/NN",
+        gscore : "289919",
+        g_image : "'bullsonparade_guitar.png'"
+    }},
+{ value : "The Pretender by Foo Fighters", 
+        data : {
+        shortname : "dlc4",
+        title : "The Pretender",
+        artist : "Foo Fighters",
+        gpath : "2/9th GY, 3/1st RYO, 3/8th GY, 2/NN, 3/14th GY, 2/NN",
+        gscore : "616123",
+        g_image : "'dlc4_guitar.png'"
+    }},
+{ value : "The Day That Never Comes by Metallica", 
+        data : {
+        shortname : "dlc86",
+        title : "The Day That Never Comes",
+        artist : "Metallica",
+        gpath : "3/1st RBO, 2/3rd RYB, 2/2nd RB, 1/38th G, 2/5th B, 2/1st YB, 4/NN, 2/4th YB",
+        gscore : "628258",
+        g_image : "'dlc86_guitar.png'"
+    }},
+{ value : "Personality Crisis by New York Dolls", 
+        data : {
+        shortname : "personalityCrisis",
+        title : "Personality Crisis",
+        artist : "New York Dolls",
+        gpath : "",
+        gscore : "",
+        g_image : "'personalitycrisis_guitar.png'"
+    }},
+{ value : "Go That Far by Bret Michaels Band", 
+        data : {
+        shortname : "gothatfar",
+        title : "Go That Far",
+        artist : "Bret Michaels Band",
+        gpath : "2/2nd B, 2/3 beats after 5th O, 3/12th Y",
+        gscore : "218944",
+        g_image : "'gothatfar_guitar.png'"
+    }},
+{ value : "Cliffs of Dover by Eric Johnson", 
+        data : {
+        shortname : "cliffsofdover",
+        title : "Cliffs of Dover",
+        artist : "Eric Johnson",
+        gpath : "2/7th R, 2/1.3 beats after 1st RB, 2/6th R, 2/10th R, 2/7th R, 2/NN, 2/16th R",
+        gscore : "324094",
+        g_image : "'cliffsofdover_guitar.png'"
+    }},
+{ value : "Don't Speak by No Doubt", 
+        data : {
+        shortname : "dlc30",
+        title : "Don't Speak",
+        artist : "No Doubt",
+        gpath : "3/NN, 3/2nd RB, 2/2nd RYO, 2/3rd R",
+        gscore : "422750",
+        g_image : "'dlc30_guitar.png'"
+    }},
+{ value : "In Love by Scouts of St. Sebastian", 
+        data : {
+        shortname : "inlove",
+        title : "In Love",
+        artist : "Scouts of St. Sebastian",
+        gpath : "2/NN, 4/17th RYB, 2/8th O",
+        gscore : "283982",
+        g_image : "'inlove_guitar.png'"
+    }},
+{ value : "Radio Song by Superbus", 
+        data : {
+        shortname : "radiosong",
+        title : "Radio Song",
+        artist : "Superbus",
+        gpath : "2/6th RY, 2/1st RO, 2/4th GYB, 2/8th Y",
+        gscore : "199775",
+        g_image : "'radiosong_guitar.png'"
+    }},
+{ value : "Putting Holes In Happiness by Marilyn Manson", 
+        data : {
+        shortname : "dlc16",
+        title : "Putting Holes In Happiness",
+        artist : "Marilyn Manson",
+        gpath : "2/5th R, 2/10th G, 3/51st R",
+        gscore : "326262",
+        g_image : "'dlc16_guitar.png'"
+    }},
+{ value : "Top Gun Anthem by ", 
+        data : {
+        shortname : "dlc74",
+        title : "Top Gun Anthem",
+        artist : "",
+        gpath : "2/NN, 2/1st GRB, 2/9th B, 2/After 2.7 beats",
+        gscore : "218719",
+        g_image : "'dlc74_guitar.png'"
+    }},
+{ value : "Antisocial by Trust", 
+        data : {
+        shortname : "dlc9",
+        title : "Antisocial",
+        artist : "Trust",
+        gpath : "2/1st YO, 3/18th R, 3/2nd O, 2/8th R, 2/19th G",
+        gscore : "410414",
+        g_image : "'dlc9_guitar.png'"
+    }},
+{ value : "Take This Life by In Flames", 
+        data : {
+        shortname : "takethislife",
+        title : "Take This Life",
+        artist : "In Flames",
+        gpath : "2/5th GRY, 2/1st YB, 3/8th G, 3/0.68 beats after 2nd RYB, 3/After 0.72 beats",
+        gscore : "568142",
+        g_image : "'takethislife_guitar.png'"
+    }},
+{ value : "No Surprize by Aerosmith", 
+        data : {
+        shortname : "nosurprize",
+        title : "No Surprize",
+        artist : "Aerosmith",
+        gpath : "1/13th GR, 2/1st GR, 2/1st RY, 1/3rd RB, 2/23rd BO",
+        gscore : "367736",
+        g_image : "'nosurprize_guitar.png'"
+    }},
+{ value : "Shoot the Runner by Kasabian", 
+        data : {
+        shortname : "dlc68",
+        title : "Shoot the Runner",
+        artist : "Kasabian",
+        gpath : "2/10th Y, 3/1.4 beats after 7th R, 3/NN",
+        gscore : "179448",
+        g_image : "'dlc68_guitar.png'"
+    }},
+{ value : "I'm in the Band by The Hellacopters", 
+        data : {
+        shortname : "imintheband",
+        title : "I'm in the Band",
+        artist : "The Hellacopters",
+        gpath : "2/NN, 3/8th Y, 2/0.36 beats after 1st GY, 2/10th RO",
+        gscore : "311035",
+        g_image : "'imintheband_guitar.png'"
+    }},
+{ value : "Beyond Beautiful by Aerosmith", 
+        data : {
+        shortname : "BeyondBeautiful",
+        title : "Beyond Beautiful",
+        artist : "Aerosmith",
+        gpath : "",
+        gscore : "",
+        g_image : "'beyondbeautiful_guitar.png'"
+    }},
+{ value : "Sabotage by Beastie Boys", 
+        data : {
+        shortname : "sabotage",
+        title : "Sabotage",
+        artist : "Beastie Boys",
+        gpath : "2/NN, 2/1st GY, 3/27th GY",
+        gscore : "306858",
+        g_image : "'sabotage_guitar.png'"
+    }},
+{ value : "The Unforgiven III by Metallica", 
+        data : {
+        shortname : "dlc90",
+        title : "The Unforgiven III",
+        artist : "Metallica",
+        gpath : "3/1st R, 3/2nd O, 3/2nd RY, 2/1st BO, 2/13th Y",
+        gscore : "435061",
+        g_image : "'dlc90_guitar.png'"
+    }},
+{ value : "Black Sunshine by White Zombie", 
+        data : {
+        shortname : "blacksunshine",
+        title : "Black Sunshine",
+        artist : "White Zombie",
+        gpath : "2/NN, 2/2nd G, 2/0.72 beats after 1st O, 3/13th G, 2/7th B",
+        gscore : "291610",
+        g_image : "'blacksunshine_guitar.png'"
+    }},
+{ value : "Hier kommt Alex by Die Toten Hosen", 
+        data : {
+        shortname : "hierkommtalex",
+        title : "Hier kommt Alex",
+        artist : "Die Toten Hosen",
+        gpath : "2/23rd YB, 3/0.4 beats after 1st GR, 2/0.68 beats after 1st YO, 3/1st RB",
+        gscore : "466618",
+        g_image : "'hierkommtalex_guitar.png'"
+    }},
+{ value : "Anarchy in the U.K. by Sex Pistols", 
+        data : {
+        shortname : "anarchyintheuk",
+        title : "Anarchy in the U.K.",
+        artist : "Sex Pistols",
+        gpath : "2/0.74 beats after 21st RY, 2/2nd GY, 2/10th BO, 2/3rd O",
+        gscore : "334264",
+        g_image : "'anarchyintheuk_guitar.png'"
+    }},
+{ value : "Reptilia by The Strokes", 
+        data : {
+        shortname : "reptilia",
+        title : "Reptilia",
+        artist : "The Strokes",
+        gpath : "3/1st BO, 2/21st Y, 2/18th B",
+        gscore : "231340",
+        g_image : "'reptilia_guitar.png'"
+    }},
+{ value : "Ernten Was Wir Säen by Die Fantastischen Vier", 
+        data : {
+        shortname : "dlc26",
+        title : "Ernten Was Wir Säen",
+        artist : "Die Fantastischen Vier",
+        gpath : "2/9th B, 2/1st GY, 3/NN, 2/NN, 3/NN, 2/2nd B, 2/1st GY, 3/NN, 4/2nd B, 2/3rd GB",
+        gscore : "766137",
+        g_image : "'dlc26_guitar.png'"
+    }},
+{ value : "Dream Police by Cheap Trick", 
+        data : {
+        shortname : "dreampolice",
+        title : "Dream Police",
+        artist : "Cheap Trick",
+        gpath : "2/2nd Y, 2/2nd R, 3/After 0 beats, 3/3rd GY",
+        gscore : "275555",
+        g_image : "'dreampolice_guitar.png'"
+    }},
+{ value : "Pretty Handsome Awkward by The Used", 
+        data : {
+        shortname : "dlc11",
+        title : "Pretty Handsome Awkward",
+        artist : "The Used",
+        gpath : "2/4th GRY, 2/NN, 2/After 0 beats, 2/After 0.24 beats, 2/2nd GY",
+        gscore : "309528",
+        g_image : "'dlc11_guitar.png'"
+    }},
+{ value : "God Put A Smile Upon Your Face by Coldplay", 
+        data : {
+        shortname : "dlc73",
+        title : "God Put A Smile Upon Your Face",
+        artist : "Coldplay",
+        gpath : "3/1st GYB, 2/1.1 beats after 2nd GRB, 2/1st YBO, 2/4th YBO",
+        gscore : "346600",
+        g_image : "'dlc73_guitar.png'"
+    }},
+{ value : "Surfing With The Alien by Joe Satriani", 
+        data : {
+        shortname : "dlc62",
+        title : "Surfing With The Alien",
+        artist : "Joe Satriani",
+        gpath : "3/NN, 2/NN, 2/1.4 beats after 10th B, 2/5th Y, 2/NN, 2/4th G",
+        gscore : "338715",
+        g_image : "'dlc62_guitar.png'"
+    }},
+{ value : "Love in an Elevator by Aerosmith", 
+        data : {
+        shortname : "loveinanelevator",
+        title : "Love in an Elevator",
+        artist : "Aerosmith",
+        gpath : "2/NN, 2/3rd B, 2/5th B, 4/39th BO",
+        gscore : "447136",
+        g_image : "'loveinanelevator_guitar.png'"
+    }},
+{ value : "Mama Kin by Aerosmith", 
+        data : {
+        shortname : "mamakin",
+        title : "Mama Kin",
+        artist : "Aerosmith",
+        gpath : "3/0.6 beats after 1st RB, 2/5th RY, 2/1st BO, 2/25th YB",
+        gscore : "421739",
+        g_image : "'mamakin_guitar.png'"
+    }},
+{ value : "Kings and Queens (Credits) by Aerosmith", 
+        data : {
+        shortname : "KingsAndQueensCredits",
+        title : "Kings and Queens (Credits)",
+        artist : "Aerosmith",
+        gpath : "",
+        gscore : "",
+        g_image : "'kingsandqueenscredits_guitar.png'"
+    }},
+{ value : "Nine Lives by Def Leppard", 
+        data : {
+        shortname : "dlc49",
+        title : "Nine Lives",
+        artist : "Def Leppard",
+        gpath : "2/4th BO, 2/1st GY, 2/NN, 2/NN",
+        gscore : "242376",
+        g_image : "'dlc49_guitar.png'"
+    }},
+{ value : "Rock and Roll All Nite by Kiss", 
+        data : {
+        shortname : "rocknrollallnite",
+        title : "Rock and Roll All Nite",
+        artist : "Kiss",
+        gpath : "2/2nd RB, 3/NN, 2/NN, 2/1st GR, 1/0.68 beats after 1st B",
+        gscore : "237794",
+        g_image : "'rocknrollallnite_guitar.png'"
+    }},
+{ value : "Can't Be Saved by Senses Fail", 
+        data : {
+        shortname : "cantbesaved",
+        title : "Can't Be Saved",
+        artist : "Senses Fail",
+        gpath : "2/NN, 2/NN, 2/4th YO, 2/1st YBO",
+        gscore : "294946",
+        g_image : "'cantbesaved_guitar.png'"
+    }},
+{ value : "Metal Heavy Lady by Lions", 
+        data : {
+        shortname : "metalheavylady",
+        title : "Metal Heavy Lady",
+        artist : "Lions",
+        gpath : "2/After 0.72 beats, 2/2nd GY, 2/NN, 3/NN",
+        gscore : "194246",
+        g_image : "'metalheavylady_guitar.png'"
+    }},
+{ value : "Black Magic Woman by Santana", 
+        data : {
+        shortname : "blackmagicwoman",
+        title : "Black Magic Woman",
+        artist : "Santana",
+        gpath : "3/NN, 2/3rd RB, 2/NN, 3/12 beats after NN, 2/NN, 1/6th G",
+        gscore : "266949",
+        g_image : "'blackmagicwoman_guitar.png'"
+    }},
+{ value : "Before I Forget by Slipknot", 
+        data : {
+        shortname : "beforeiforget",
+        title : "Before I Forget",
+        artist : "Slipknot",
+        gpath : "2/9th Y, 2/1st G, 3/After 0.28 beats, 3/15th Y, 2/2nd GYB, 2/8th Y",
+        gscore : "569562",
+        g_image : "'beforeiforget_guitar.png'"
+    }},
+{ value : "All My Life by Foo Fighters", 
+        data : {
+        shortname : "dlc3",
+        title : "All My Life",
+        artist : "Foo Fighters",
+        gpath : "3/2nd RYO, 2/5th RB, 2/40th RB, 1/3.5 beats after 2nd YB, 2/NN",
+        gscore : "605256",
+        g_image : "'dlc3_guitar.png'"
+    }},
+{ value : "Operation Ground and Pound by DragonForce", 
+        data : {
+        shortname : "dlc81",
+        title : "Operation Ground and Pound",
+        artist : "DragonForce",
+        gpath : "3/After 0.32 beats, 1/7th Y, 2/7.3 beats after 1st GB, 1/2nd G, 2/5th RB, 2/2nd Y, 2/1st B, 2/13th B, 2/NN, 2/After 7 beats, 2/After 1.6 beats, 2/1st O",
+        gscore : "909594",
+        g_image : "'dlc81_guitar.png'"
+    }},
+{ value : "Kings and Queens by Aerosmith", 
+        data : {
+        shortname : "KingsAndQueens",
+        title : "Kings and Queens",
+        artist : "Aerosmith",
+        gpath : "",
+        gscore : "",
+        g_image : "'kingsandqueens_guitar.png'"
+    }},
+{ value : "The Seeker by The Who", 
+        data : {
+        shortname : "theseeker",
+        title : "The Seeker",
+        artist : "The Who",
+        gpath : "2/After 0 beats, 3/2nd RY, 3/3rd YO, 2/2nd GY",
+        gscore : "343972",
+        g_image : "'theseeker_guitar.png'"
+    }},
+{ value : "Photograph (Live) by Def Leppard", 
+        data : {
+        shortname : "dlc50",
+        title : "Photograph (Live)",
+        artist : "Def Leppard",
+        gpath : "3/8th O, 2/NN, 2/0.4 beats after 1st B, 2/1st G, 2/1st GB",
+        gscore : "322795",
+        g_image : "'dlc50_guitar.png'"
+    }},
+{ value : "Almost Easy by Avenged Sevenfold", 
+        data : {
+        shortname : "dlc32",
+        title : "Almost Easy",
+        artist : "Avenged Sevenfold",
+        gpath : "2/3rd G, 2/0.72 beats after 5th GY, 2/NN, 2/3rd B, 2/7th RB",
+        gscore : "409298",
+        g_image : "'dlc32_guitar.png'"
+    }},
+{ value : "Sunshine of Your Love by Cream", 
+        data : {
+        shortname : "sunshineofyourlove",
+        title : "Sunshine of Your Love",
+        artist : "Cream",
+        gpath : "3/1st RYO, 2/1st G, 3/4th R, 2/14th RB",
+        gscore : "268423",
+        g_image : "'sunshineofyourlove_guitar.png'"
+    }},
+{ value : "Train Kept A-Rollin' by Aerosmith", 
+        data : {
+        shortname : "trainkeptarollin",
+        title : "Train Kept A-Rollin'",
+        artist : "Aerosmith",
+        gpath : "2/5th G, 2/5th RY, 2/15th Y, 3/12th RY, 2/7th GY, 2/1st GY",
+        gscore : "466391",
+        g_image : "'trainkeptarollin_guitar.png'"
+    }},
+{ value : "Slither by Velvet Revolver", 
+        data : {
+        shortname : "dlc6",
+        title : "Slither",
+        artist : "Velvet Revolver",
+        gpath : "2/NN, 2/1st RY, 2/NN, 2/13th Y, 3/9th Y",
+        gscore : "340469",
+        g_image : "'dlc6_guitar.png'"
+    }},
+{ value : "All Nightmare Long by Metallica", 
+        data : {
+        shortname : "dlc84",
+        title : "All Nightmare Long",
+        artist : "Metallica",
+        gpath : "2/2nd G, 3/38th O, 3/1st O, 2/13th GY, 2/2nd R, 3/30th Y, 2/4th YB",
+        gscore : "912026",
+        g_image : "'dlc84_guitar.png'"
+    }},
+{ value : "Rag Doll by Aerosmith", 
+        data : {
+        shortname : "ragdoll",
+        title : "Rag Doll",
+        artist : "Aerosmith",
+        gpath : "3/1st Y, 2/2nd RY, 3/2nd RY",
+        gscore : "306382",
+        g_image : "'ragdoll_guitar.png'"
+    }},
+{ value : "Sweet Emotion by Aerosmith", 
+        data : {
+        shortname : "sweetemotion",
+        title : "Sweet Emotion",
+        artist : "Aerosmith",
+        gpath : "3/NN, 3/NN, 2/9th B, 2/4th BO, 2/5th B",
+        gscore : "346829",
+        g_image : "'sweetemotion_guitar.png'"
+    }},
+{ value : "Halo Theme MJOLNIR Mix by O'Donnell/Salvatori/ Vai", 
+        data : {
+        shortname : "dlc19",
+        title : "Halo Theme MJOLNIR Mix",
+        artist : "O'Donnell/Salvatori/ Vai",
+        gpath : "2/3rd G, 2/0.6 beats after 9th R, 2/NN",
+        gscore : "183932",
+        g_image : "'dlc19_guitar.png'"
+    }},
+{ value : "Lay Down by Priestess", 
+        data : {
+        shortname : "laydown",
+        title : "Lay Down",
+        artist : "Priestess",
+        gpath : "2/NN, 2/4th YO, 2/3rd R, 3/NN",
+        gscore : "301706",
+        g_image : "'laydown_guitar.png'"
+    }},
+{ value : "Walk This Way by Aerosmith", 
+        data : {
+        shortname : "walkthisway",
+        title : "Walk This Way",
+        artist : "Aerosmith",
+        gpath : "2/9th Y, 2/NN, 2/NN, 2/3rd Y, 2/2nd GY, 2/10th B",
+        gscore : "357046",
+        g_image : "'walkthisway_guitar.png'"
+    }},
+{ value : "Don't Hold Back by The Sleeping", 
+        data : {
+        shortname : "dontholdback",
+        title : "Don't Hold Back",
+        artist : "The Sleeping",
+        gpath : "2/NN, 3/1st GRY, 2/14th B, 2/8th O",
+        gscore : "336434",
+        g_image : "'dontholdback_guitar.png'"
+    }},
+{ value : "Rats in the Cellar by Aerosmith", 
+        data : {
+        shortname : "ratsinthecellar",
+        title : "Rats in the Cellar",
+        artist : "Aerosmith",
+        gpath : "1/1st G, 2/NN, 2/6th R, 2/5th Y, 3/1.2 beats after 6th YB",
+        gscore : "365128",
+        g_image : "'ratsinthecellar_guitar.png'"
+    }},
+{ value : "Cult of Personality by Living Colour", 
+        data : {
+        shortname : "cultofpersonality",
+        title : "Cult of Personality",
+        artist : "Living Colour",
+        gpath : "2/After 1.3 beats, 2/1st GY, 2/After 1.3 beats, 3/13th G, 2/13th Y",
+        gscore : "369270",
+        g_image : "'cultofpersonality_guitar.png'"
+    }},
+{ value : "Carcinogen Crush by AFI", 
+        data : {
+        shortname : "dlc14",
+        title : "Carcinogen Crush",
+        artist : "AFI",
+        gpath : "2/6th RB, 2/4th RB, 2/NN",
+        gscore : "298801",
+        g_image : "'dlc14_guitar.png'"
+    }},
+{ value : "Even Flow by Pearl Jam", 
+        data : {
+        shortname : "evenflow",
+        title : "Even Flow",
+        artist : "Pearl Jam",
+        gpath : "2/4th Y, 2/NN, 2/After 0.72 beats, 4/After 0.4 beats, 2/1.8 beats after 1st B, 2/5th G",
+        gscore : "366292",
+        g_image : "'evenflow_guitar.png'"
+    }},
+{ value : "The End of the Line by Metallica", 
+        data : {
+        shortname : "dlc89",
+        title : "The End of the Line",
+        artist : "Metallica",
+        gpath : "2/NN, 2/10th G, 2/5th Y, 3/12th Y, 2/1st Y, 3/3rd Y, 2/1st Y, 2/2nd RYO",
+        gscore : "730958",
+        g_image : "'dlc89_guitar.png'"
+    }},
+{ value : "This is a Call by Foo Fighters", 
+        data : {
+        shortname : "dlc5",
+        title : "This is a Call",
+        artist : "Foo Fighters",
+        gpath : "2/0.72 beats after 16th GY, 2/26th GYB, 2/0.68 beats after 9th GY, 2/1st B",
+        gscore : "476579",
+        g_image : "'dlc5_guitar.png'"
+    }},
+{ value : "Hit Me With Your Best Shot by Pat Benatar", 
+        data : {
+        shortname : "hitmewithyourbestshot",
+        title : "Hit Me With Your Best Shot",
+        artist : "Pat Benatar",
+        gpath : "2/NN, 3/1.1 beats after 2nd GY, 2/NN, 3/NN, 2/1st RB",
+        gscore : "209224",
+        g_image : "'hitmewithyourbestshot_guitar.png'"
+    }},
+{ value : "Broken, Beat & Scarred by Metallica", 
+        data : {
+        shortname : "dlc87",
+        title : "Broken, Beat & Scarred",
+        artist : "Metallica",
+        gpath : "3/24th G, 2/13th G, 2/3rd G, 3/13th G, 4/10th G, 2/NN",
+        gscore : "632306",
+        g_image : "'dlc87_guitar.png'"
+    }},
+{ value : "Welcome to the Jungle by Guns N' Roses", 
+        data : {
+        shortname : "welcometothejungle",
+        title : "Welcome to the Jungle",
+        artist : "Guns N' Roses",
+        gpath : "2/10th Y, 2/1st YO, 2/6th G, 3/After 0.44 beats, 2/3rd Y, 2/NN",
+        gscore : "361902",
+        g_image : "'welcometothejungle_guitar.png'"
+    }},
+{ value : "Toys in the Attic by Aerosmith", 
+        data : {
+        shortname : "toysintheattic",
+        title : "Toys in the Attic",
+        artist : "Aerosmith",
+        gpath : "3/1st YB, 1/1st YB, 2/5.2 beats after 1st G, 2/1st RY",
+        gscore : "249854",
+        g_image : "'toysintheattic_guitar.png'"
+    }},
+{ value : "Livin' on the Edge by Aerosmith", 
+        data : {
+        shortname : "livinontheedge",
+        title : "Livin' on the Edge",
+        artist : "Aerosmith",
+        gpath : "3/0.72 beats after 1st Y, 2/NN, 3/NN, 3/NN, 1/1.8 beats after 1st GR",
+        gscore : "348084",
+        g_image : "'livinontheedge_guitar.png'"
+    }},
+{ value : "The Way It Ends by Prototype", 
+        data : {
+        shortname : "thewayitends",
+        title : "The Way It Ends",
+        artist : "Prototype",
+        gpath : "1/1st GRB, 3/13th GRY, 3/14th R, 2/1st GR, 2/7th B, 2/2nd O, 2/1st RB",
+        gscore : "629272",
+        g_image : "'thewayitends_guitar.png'"
+    }},
+{ value : "Miss Murder by AFI", 
+        data : {
+        shortname : "missmurder",
+        title : "Miss Murder",
+        artist : "AFI",
+        gpath : "3/2nd YBO, 2/1st YBO, 3/0.72 beats after 1st YBO",
+        gscore : "322466",
+        g_image : "'missmurder_guitar.png'"
+    }},
+{ value : "Uncle Salty by Aerosmith", 
+        data : {
+        shortname : "UncleSalty",
+        title : "Uncle Salty",
+        artist : "Aerosmith",
+        gpath : "",
+        gscore : "",
+        g_image : "'unclesalty_guitar.png'"
+    }},
+{ value : "Sunday Morning by No Doubt", 
+        data : {
+        shortname : "dlc31",
+        title : "Sunday Morning",
+        artist : "No Doubt",
+        gpath : "3/0.04 beats after 2nd G, 2/After 0.52 beats, 2/0.76 beats after 2nd Y, 1/2nd R, 1/3rd RB, 2/4th O",
+        gscore : "282589",
+        g_image : "'dlc31_guitar.png'"
+    }},
+{ value : "3's & 7's by Queens of the Stone Age", 
+        data : {
+        shortname : "threesandsevens",
+        title : "3's & 7's",
+        artist : "Queens of the Stone Age",
+        gpath : "2/1st GYB, 3/1st GYB, 3/5th BO, 2/3rd R",
+        gscore : "408660",
+        g_image : "'threesandsevens_guitar.png'"
+    }},
+{ value : "I Hate Myself for Loving You by Joan Jett & the Blackhearts", 
+        data : {
+        shortname : "ihatemyselfforlovingyou",
+        title : "I Hate Myself for Loving You",
+        artist : "Joan Jett & the Blackhearts",
+        gpath : "3/5th YO, 2/1st GY, 2/NN, 2/4th R",
+        gscore : "207212",
+        g_image : "'ihatemyselfforlovingyou_guitar.png'"
+    }},
+{ value : "Ruby by Kaiser Chiefs", 
+        data : {
+        shortname : "ruby",
+        title : "Ruby",
+        artist : "Kaiser Chiefs",
+        gpath : "2/NN, 3/1st GYB, 3/1st Y",
+        gscore : "206658",
+        g_image : "'ruby_guitar.png'"
+    }},
+{ value : "Messages by Velvet Revolver", 
+        data : {
+        shortname : "dlc8",
+        title : "Messages",
+        artist : "Velvet Revolver",
+        gpath : "3/NN, 3/NN, 2/NN, 2/NN",
+        gscore : "236572",
+        g_image : "'dlc8_guitar.png'"
+    }},
+{ value : "Sex Type Thing by Stone Temple Pilots", 
+        data : {
+        shortname : "sextypething",
+        title : "Sex Type Thing",
+        artist : "Stone Temple Pilots",
+        gpath : "3/4th G, 2/2nd RB, 3/2nd GB, 2/1st GR",
+        gscore : "328060",
+        g_image : "'sextypething_guitar.png'"
+    }},
+{ value : "My Curse by Killswitch Engage", 
+        data : {
+        shortname : "mycurse",
+        title : "My Curse",
+        artist : "Killswitch Engage",
+        gpath : "2/NN, 2/12th G, 3/After 0.16 beats, 2/NN, 2/2nd R, 1/After 7.3 beats, 2/1st R",
+        gscore : "398790",
+        g_image : "'mycurse_guitar.png'"
+    }},
+{ value : "Combination by Aerosmith", 
+        data : {
+        shortname : "combination",
+        title : "Combination",
+        artist : "Aerosmith",
+        gpath : "2/7th Y, 2/4th G, 2/4th YB, 2/11th RY",
+        gscore : "363259",
+        g_image : "'combination_guitar.png'"
+    }},
+{ value : "The Devil Went Down To Georgia by Charlie Daniels Band", 
+        data : {
+        shortname : "dlc17",
+        title : "The Devil Went Down To Georgia",
+        artist : "Charlie Daniels Band",
+        gpath : "2/1st B, 2/NN, 2/NN, 2/NN, 2/13th Y, 2/4th R, 2/NN, 3/6th B, 2/10th R",
+        gscore : "892877",
+        g_image : "'dlc17_guitar.png'"
+    }},
+{ value : "I Am Murloc by L70ETC", 
+        data : {
+        shortname : "dlc75",
+        title : "I Am Murloc",
+        artist : "L70ETC",
+        gpath : "2/1st B, 1/1st RB, 2/6th Y, 3/0.32 beats after 1st B, 2/1st RB",
+        gscore : "271997",
+        g_image : "'dlc75_guitar.png'"
+    }},
+{ value : "Pandora's Box by Aerosmith", 
+        data : {
+        shortname : "pandorasbox",
+        title : "Pandora's Box",
+        artist : "Aerosmith",
+        gpath : "3/2nd GY, 2/2nd RB, 2/After 0.48 beats, 2/2nd GR, 2/0.56 beats after 6th Y, 2/29th B",
+        gscore : "369907",
+        g_image : "'pandorasbox_guitar.png'"
+    }},
+{ value : "King of Rock by Run-D.M.C.", 
+        data : {
+        shortname : "kingofrock",
+        title : "King of Rock",
+        artist : "Run-D.M.C.",
+        gpath : "2/5th Y, 2/11th Y, 2/0.6 beats after 2nd O, 2/46th Y",
+        gscore : "243206",
+        g_image : "'kingofrock_guitar.png'"
+    }},
+{ value : "Cat Scratch Fever by Ted Nugent", 
+        data : {
+        shortname : "CatScratchFever",
+        title : "Cat Scratch Fever",
+        artist : "Ted Nugent",
+        gpath : "",
+        gscore : "",
+        g_image : "'catscratchfever_guitar.png'"
+    }},
+{ value : "Walk This Way by Run-D.M.C. ft. Aerosmith", 
+        data : {
+        shortname : "walkthiswayrundmc",
+        title : "Walk This Way",
+        artist : "Run-D.M.C. ft. Aerosmith",
+        gpath : "3/After 1.2 beats, 3/After 0 beats, 2/1st GB, 2/1st O, 4/NN",
+        gscore : "414625",
+        g_image : "'walkthiswayrundmc_guitar.png'"
+    }},
+{ value : "Monsters by Matchbook Romance", 
+        data : {
+        shortname : "monsters",
+        title : "Monsters",
+        artist : "Matchbook Romance",
+        gpath : "3/3rd RBO, 3/2nd GY, 2/2nd B, 3/NN",
+        gscore : "455070",
+        g_image : "'monsters_guitar.png'"
+    }},
+{ value : "Cherub Rock by The Smashing Pumpkins", 
+        data : {
+        shortname : "cherubrock",
+        title : "Cherub Rock",
+        artist : "The Smashing Pumpkins",
+        gpath : "3/3rd RYO, 2/2nd YO, 2/NN, 2/NN, 2/7th RBO",
+        gscore : "532262",
+        g_image : "'cherubrock_guitar.png'"
+    }},
+{ value : "Raining Blood by Slayer", 
+        data : {
+        shortname : "rainingblood",
+        title : "Raining Blood",
+        artist : "Slayer",
+        gpath : "3/21st Y, 2/1st RBO, 2/24th R",
+        gscore : "357447",
+        g_image : "'rainingblood_guitar.png'"
+    }},
+{ value : "Talk Talkin' by Aerosmith", 
+        data : {
+        shortname : "talktalking",
+        title : "Talk Talkin'",
+        artist : "Aerosmith",
+        gpath : "2/1st B, 2/4th R, 2/NN",
+        gscore : "210353",
+        g_image : "'talktalking_guitar.png'"
+    }},
+{ value : "Problems (Live at Brixton) by The Sex Pistols", 
+        data : {
+        shortname : "dlc69",
+        title : "Problems (Live at Brixton)",
+        artist : "The Sex Pistols",
+        gpath : "3/NN, 2/12th GY, 3/2nd O, 2/NN, 2/0.56 beats after 23rd GRY",
+        gscore : "627681",
+        g_image : "'dlc69_guitar.png'"
+    }},
+{ value : "No More Sorrow by Linkin Park", 
+        data : {
+        shortname : "dlc12",
+        title : "No More Sorrow",
+        artist : "Linkin Park",
+        gpath : "3/NN, 2/2nd BO, 3/13th BO",
+        gscore : "527377",
+        g_image : "'dlc12_guitar.png'"
+    }},
+{ value : "Peace Of Mind by Boston", 
+        data : {
+        shortname : "dlc25",
+        title : "Peace Of Mind",
+        artist : "Boston",
+        gpath : "2/3rd RYB, 2/8 beats after NN, 2/1st RYB, 2/NN, 2/6th YB",
+        gscore : "421171",
+        g_image : "'dlc25_guitar.png'"
+    }},
+{ value : "I Predict a Riot by Kaiser Chiefs", 
+        data : {
+        shortname : "dlc70",
+        title : "I Predict a Riot",
+        artist : "Kaiser Chiefs",
+        gpath : "1/2nd Y, 1/3rd O, 1/NN, 3/1st RYO, 2/After 0.52 beats, 1/3rd RO",
+        gscore : "316191",
+        g_image : "'dlc70_guitar.png'"
+    }},
+{ value : "Motörhead by Motörhead", 
+        data : {
+        shortname : "dlc47",
+        title : "Motörhead",
+        artist : "Motörhead",
+        gpath : "2/12th GYB, 2/1st BO, 4/2nd YB, 2/2nd RBO",
+        gscore : "409794",
+        g_image : "'dlc47_guitar.png'"
+    }},
+{ value : "La Grange by ZZ Top", 
+        data : {
+        shortname : "lagrange",
+        title : "La Grange",
+        artist : "ZZ Top",
+        gpath : "2/2nd G, 3/9th Y, 3/NN, 2/NN",
+        gscore : "257020",
+        g_image : "'lagrange_guitar.png'"
+    }},
+{ value : "One by Metallica", 
+        data : {
+        shortname : "one",
+        title : "One",
+        artist : "Metallica",
+        gpath : "3/1st R, 2/2nd B, 3/1st B, 3/NN, 3/1st B, 2/29th G, 2/14th Y",
+        gscore : "662809",
+        g_image : "'one_guitar.png'"
+    }},
+{ value : "Prayer of the Refugee by Rise Against", 
+        data : {
+        shortname : "prayeroftherefugee",
+        title : "Prayer of the Refugee",
+        artist : "Rise Against",
+        gpath : "2/9th RB, 2/NN, 2/8th GB, 3/NN",
+        gscore : "371606",
+        g_image : "'prayeroftherefugee_guitar.png'"
+    }},
+{ value : "(F)lannigan's Ball by Dropkick Murphys", 
+        data : {
+        shortname : "dlc39",
+        title : "(F)lannigan's Ball",
+        artist : "Dropkick Murphys",
+        gpath : "2/44th RBO, 2/24th RB, 2/7th RY, 2/0.64 beats after 4th RBO",
+        gscore : "651648",
+        g_image : "'dlc39_guitar.png'"
+    }},
+{ value : "Paint It Black by The Rolling Stones", 
+        data : {
+        shortname : "paintitblack",
+        title : "Paint It Black",
+        artist : "The Rolling Stones",
+        gpath : "3/14th R, 2/1st RY, 2/9th R, 2/NN",
+        gscore : "316414",
+        g_image : "'paintitblack_guitar.png'"
+    }},
+{ value : "Suicide & Redemption K.H. by Metallica", 
+        data : {
+        shortname : "dlc93",
+        title : "Suicide & Redemption K.H.",
+        artist : "Metallica",
+        gpath : "2/15th G, 2/1st YO, 2/9th YB, 2/7th R, 2/6th RY, 2/18th G, 3/2nd GR",
+        gscore : "714011",
+        g_image : "'dlc93_guitar.png'"
+    }},
+{ value : "F.C.P.R.E.M.I.X. by The Fall of Troy", 
+        data : {
+        shortname : "fcpremix",
+        title : "F.C.P.R.E.M.I.X.",
+        artist : "The Fall of Troy",
+        gpath : "2/12th Y, 3/1.2 beats after 8th B, 3/2nd R, 2/1st RYO, 2/3rd Y",
+        gscore : "394093",
+        g_image : "'fcpremix_guitar.png'"
+    }},
+{ value : "Cities on Flame with Rock and Roll by Blue Öyster Cult", 
+        data : {
+        shortname : "citiesonflame",
+        title : "Cities on Flame with Rock and Roll",
+        artist : "Blue Öyster Cult",
+        gpath : "3/3rd R, 2/NN, 2/4th R, 2/NN, 2/NN",
+        gscore : "256894",
+        g_image : "'citiesonflame_guitar.png'"
+    }},
+{ value : "Revolution Deathsquad by DragonForce", 
+        data : {
+        shortname : "dlc82",
+        title : "Revolution Deathsquad",
+        artist : "DragonForce",
+        gpath : "2/0.76 beats after 16th Y, 3/5th R, 2/3rd YO, 2/15th R, 3/3rd R, 2/0.8 beats after 48th O, 3/47th Y, 3/15th Y",
+        gscore : "911842",
+        g_image : "'dlc82_guitar.png'"
+    }},
+{ value : "Avalancha by Héroes del Silencio", 
+        data : {
+        shortname : "avalancha",
+        title : "Avalancha",
+        artist : "Héroes del Silencio",
+        gpath : "1/NN, 2/2nd RBO, 2/NN, 2/1st RBO, 1/2.8 beats after 16th R, 2/17th Y, 2/NN",
+        gscore : "433180",
+        g_image : "'avalancha_guitar.png'"
+    }},
+{ value : "Hole in the Earth by Deftones", 
+        data : {
+        shortname : "dlc28",
+        title : "Hole in the Earth",
+        artist : "Deftones",
+        gpath : "2/4th G, 1/4th GY, 2/NN, 2/29th R, 2/0.62 beats after 7th R",
+        gscore : "372175",
+        g_image : "'dlc28_guitar.png'"
+    }},
+{ value : "All the Young Dudes by Mott the Hoople", 
+        data : {
+        shortname : "alltheyoungdudes",
+        title : "All the Young Dudes",
+        artist : "Mott the Hoople",
+        gpath : "2/After 0.72 beats, 2/2nd RB, 2/1st RO, 2/NN, 3/After 2.2 beats, 2/NN",
+        gscore : "306513",
+        g_image : "'alltheyoungdudes_guitar.png'"
+    }},
+{ value : "Joe Perry Guitar Battle by Joe Perry", 
+        data : {
+        shortname : "joeperryguitarbattle",
+        title : "Joe Perry Guitar Battle",
+        artist : "Joe Perry",
+        gpath : "2/5th Y, 2/5th O, 2/1st GY, 3/5th R",
+        gscore : "372514",
+        g_image : "'joeperryguitarbattle_guitar.png'"
+    }},
+{ value : "Make It by Aerosmith", 
+        data : {
+        shortname : "MakeIt",
+        title : "Make It",
+        artist : "Aerosmith",
+        gpath : "",
+        gscore : "",
+        g_image : "'makeit_guitar.png'"
+    }},
+{ value : "The End Begins (To Rock) by God of War II", 
+        data : {
+        shortname : "dlc61",
+        title : "The End Begins (To Rock)",
+        artist : "God of War II",
+        gpath : "3/3rd O, 2/3rd G, 1/35th Y",
+        gscore : "269244",
+        g_image : "'dlc61_guitar.png'"
+    }},
+{ value : "Nobody's Fault by Aerosmith", 
+        data : {
+        shortname : "nobodysfault",
+        title : "Nobody's Fault",
+        artist : "Aerosmith",
+        gpath : "1/35th R, 2/1.4 beats after 4th R, 2/NN, 2/3rd G, 2/10th G",
+        gscore : "300680",
+        g_image : "'nobodysfault_guitar.png'"
+    }},
+{ value : "Draw the Line by Aerosmith", 
+        data : {
+        shortname : "drawtheline",
+        title : "Draw the Line",
+        artist : "Aerosmith",
+        gpath : "2/3rd G, 3/1st GR, 2/3rd GR",
+        gscore : "227097",
+        g_image : "'drawtheline_guitar.png'"
+    }},
+{ value : "Stockholm Syndrome by Muse", 
+        data : {
+        shortname : "dlc34",
+        title : "Stockholm Syndrome",
+        artist : "Muse",
+        gpath : "2/40th B, 2/1st RB, 2/11th RB, 2/4th YB, 3/16th GY",
+        gscore : "687350",
+        g_image : "'dlc34_guitar.png'"
+    }},
+{ value : "Rock of Ages (Live) by Def Leppard", 
+        data : {
+        shortname : "dlc51",
+        title : "Rock of Ages (Live)",
+        artist : "Def Leppard",
+        gpath : "2/2nd R, 3/NN, 2/7th B, 3/3 beats after 1st B, 1/NN",
+        gscore : "364497",
+        g_image : "'dlc51_guitar.png'"
+    }},
+{ value : "Soothsayer by Buckethead", 
+        data : {
+        shortname : "dlc66",
+        title : "Soothsayer",
+        artist : "Buckethead",
+        gpath : "2/2nd O, 3/NN, 2/2nd R, 3/1st GR, 2/1st GY, 2/1st Y, 2/2nd Y, 3/1st G",
+        gscore : "711354",
+        g_image : "'dlc66_guitar.png'"
+    }},
+{ value : "Rock You Like a Hurricane by Scorpions", 
+        data : {
+        shortname : "rockulikeahurricane",
+        title : "Rock You Like a Hurricane",
+        artist : "Scorpions",
+        gpath : "2/1st GY, 2/3rd GY, 2/11th B",
+        gscore : "308543",
+        g_image : "'rockulikeahurricane_guitar.png'"
+    }},
+{ value : "Generation Rock by Revolverheld", 
+        data : {
+        shortname : "generationrock",
+        title : "Generation Rock",
+        artist : "Revolverheld",
+        gpath : "2/NN, 3/0.96 beats after 1st O, 3/5th BO, 2/17th RY",
+        gscore : "281114",
+        g_image : "'generationrock_guitar.png'"
+    }},
+{ value : "Hard to Handle by The Black Crowes", 
+        data : {
+        shortname : "hardtohandle",
+        title : "Hard to Handle",
+        artist : "The Black Crowes",
+        gpath : "3/2.2 beats after 4th YO, 3/After 1.8 beats, 2/After 0.74 beats",
+        gscore : "238669",
+        g_image : "'hardtohandle_guitar.png'"
+    }},
+{ value : "Exo-Politics by Muse", 
+        data : {
+        shortname : "dlc33",
+        title : "Exo-Politics",
+        artist : "Muse",
+        gpath : "5/4th R, 2/11th R, 2/NN",
+        gscore : "263698",
+        g_image : "'dlc33_guitar.png'"
+    }},
+{ value : "Holiday in Cambodia by Dead Kennedys", 
+        data : {
+        shortname : "holidayincambodia",
+        title : "Holiday in Cambodia",
+        artist : "Dead Kennedys",
+        gpath : "2/7th GB, 2/0.76 beats after 4th O, 3/1st YO, 3/16th RY, 2/5th RB",
+        gscore : "506148",
+        g_image : "'holidayincambodia_guitar.png'"
+    }},
+{ value : "Down 'n' Dirty by L.A. Slum Lords", 
+        data : {
+        shortname : "downndirty",
+        title : "Down 'n' Dirty",
+        artist : "L.A. Slum Lords",
+        gpath : "2/4th GR, 2/2nd Y, 2/NN, 2/4th BO",
+        gscore : "431085",
+        g_image : "'downndirty_guitar.png'"
+    }},
+{ value : "Complete Control by The Clash", 
+        data : {
+        shortname : "completecontrol",
+        title : "Complete Control",
+        artist : "The Clash",
+        gpath : "2/NN, 2/3rd Y, 1/3.2 beats after 1st RB, 1/NN, 2/2nd Y",
+        gscore : "250132",
+        g_image : "'completecontrol_guitar.png'"
+    }},
+{ value : "Slow Ride by Foghat", 
+        data : {
+        shortname : "slowride",
+        title : "Slow Ride",
+        artist : "Foghat",
+        gpath : "2/0.75 beats after 3rd GR, 2/After 1.2 beats, 3/NN, 2/NN",
+        gscore : "222049",
+        g_image : "'slowride_guitar.png'"
+    }},
+{ value : "School's Out by Alice Cooper", 
+        data : {
+        shortname : "schoolsout",
+        title : "School's Out",
+        artist : "Alice Cooper",
+        gpath : "2/NN, 2/2nd Y, 3/1st R",
+        gscore : "163277",
+        g_image : "'schoolsout_guitar.png'"
+    }},
+{ value : "So Payaso by Extremoduro", 
+        data : {
+        shortname : "dlc18",
+        title : "So Payaso",
+        artist : "Extremoduro",
+        gpath : "3/NN, 3/5th BO, 2/1st GY, 3/NN",
+        gscore : "343590",
+        g_image : "'dlc18_guitar.png'"
+    }},
+{ value : "Bright Light Fright by Aerosmith", 
+        data : {
+        shortname : "brightlightfright",
+        title : "Bright Light Fright",
+        artist : "Aerosmith",
+        gpath : "2/7th RB, 2/5th YB, 3/10th BO",
+        gscore : "215545",
+        g_image : "'brightlightfright_guitar.png'"
+    }},
+{ value : "She Builds Quick Machines by Velvet Revolver", 
+        data : {
+        shortname : "dlc7",
+        title : "She Builds Quick Machines",
+        artist : "Velvet Revolver",
+        gpath : "3/4th YB, 2/9th RY, 2/2.5 beats after 1st RO, 3/3rd YB",
+        gscore : "357580",
+        g_image : "'dlc7_guitar.png'"
+    }},
+{ value : "That Was Just Your Life by Metallica", 
+        data : {
+        shortname : "dlc85",
+        title : "That Was Just Your Life",
+        artist : "Metallica",
+        gpath : "2/2nd YO, 3/55th GR, 4/20th GR, 2/NN, 3/NN, 2/1st GYB",
+        gscore : "673195",
+        g_image : "'dlc85_guitar.png'"
+    }},
+{ value : "She Bangs the Drums by The Stone Roses", 
+        data : {
+        shortname : "shebangsadrum",
+        title : "She Bangs the Drums",
+        artist : "The Stone Roses",
+        gpath : "2/1st O, 2/3rd YO, 2/NN, 2/2nd YO, 2/2nd B",
+        gscore : "312616",
+        g_image : "'shebangsadrum_guitar.png'"
+    }},
+{ value : "Back in the Saddle by Aerosmith", 
+        data : {
+        shortname : "backinthesaddle",
+        title : "Back in the Saddle",
+        artist : "Aerosmith",
+        gpath : "2/NN, 3/4th GY, 2/1.4 beats after 2nd B, 2/20th O",
+        gscore : "331267",
+        g_image : "'backinthesaddle_guitar.png'"
+    }},
+{ value : "Mauvais Garçon by Naast", 
+        data : {
+        shortname : "mauvaisgarcon",
+        title : "Mauvais Garçon",
+        artist : "Naast",
+        gpath : "3/6th YBO, 2/7th RB, 2/1st YO",
+        gscore : "430648",
+        g_image : "'mauvaisgarcon_guitar.png'"
+    }},
+{ value : "Shakin' My Cage by Joe Perry Project", 
+        data : {
+        shortname : "shakinmycage",
+        title : "Shakin' My Cage",
+        artist : "Joe Perry Project",
+        gpath : "2/16th YO, 2/1st YB, 2/After 1.1 beats, 2/3rd Y, 2/1st YO",
+        gscore : "343918",
+        g_image : "'shakinmycage_guitar.png'"
+    }},
+{ value : "Same Old Song and Dance by Aerosmith", 
+        data : {
+        shortname : "sameoldsonganddance",
+        title : "Same Old Song and Dance",
+        artist : "Aerosmith",
+        gpath : "2/1st R, 3/9th G, 2/1st GY",
+        gscore : "218383",
+        g_image : "'sameoldsonganddance_guitar.png'"
+    }},
+{ value : "The Judas Kiss by Metallica", 
+        data : {
+        shortname : "dlc88",
+        title : "The Judas Kiss",
+        artist : "Metallica",
+        gpath : "2/2nd RO, 3/6th R, 3/5th RB, 2/NN, 2/1.1 beats after 2nd O, 2/After 0 beats, 3/45th R, 2/13th G, 2/1st G",
+        gscore : "742091",
+        g_image : "'dlc88_guitar.png'"
+    }},
+{ value : "Pride and Joy by Stevie Ray Vaughan", 
+        data : {
+        shortname : "pridenjoy",
+        title : "Pride and Joy",
+        artist : "Stevie Ray Vaughan",
+        gpath : "2/1st B, 2/5th YB, 2/NN, 2/2nd GB, 3/4th R",
+        gscore : "372194",
+        g_image : "'pridenjoy_guitar.png'"
+    }},
+{ value : "Tina by Flyleaf", 
+        data : {
+        shortname : "dlc15",
+        title : "Tina",
+        artist : "Flyleaf",
+        gpath : "3/10th BO, 3/0.64 beats after 2nd RB",
+        gscore : "181549",
+        g_image : "'dlc15_guitar.png'"
+    }},
+{ value : "Barracuda by Heart", 
+        data : {
+        shortname : "barracuda",
+        title : "Barracuda",
+        artist : "Heart",
+        gpath : "3/2nd RY, 2/5th R, 2/1st GY, 2/17th G",
+        gscore : "288646",
+        g_image : "'barracuda_guitar.png'"
+    }},
+{ value : "My Name Is Jonas by Weezer", 
+        data : {
+        shortname : "mynameisjonas",
+        title : "My Name Is Jonas",
+        artist : "Weezer",
+        gpath : "2/NN, 2/1st O, 2/NN, 2/2nd G",
+        gscore : "362650",
+        g_image : "'mynameisjonas_guitar.png'"
+    }},
+{ value : "Mercy by Joe Perry Project", 
+        data : {
+        shortname : "mercy",
+        title : "Mercy",
+        artist : "Joe Perry Project",
+        gpath : "2/15th RB, 2/3rd Y, 3/2nd RY, 2/NN, 3/2nd Y",
+        gscore : "422092",
+        g_image : "'mercy_guitar.png'"
+    }},
+{ value : "Johnny, I Hardly Knew Ya by Dropkick Murphys", 
+        data : {
+        shortname : "dlc40",
+        title : "Johnny, I Hardly Knew Ya",
+        artist : "Dropkick Murphys",
+        gpath : "4/2nd RYB, 3/7th RYB, 3/5th RYB, 3/1st B",
+        gscore : "499482",
+        g_image : "'dlc40_guitar.png'"
+    }},
+{ value : "Talk Dirty to Me by Poison", 
+        data : {
+        shortname : "talkdirtytome",
+        title : "Talk Dirty to Me",
+        artist : "Poison",
+        gpath : "2/10th GR, 2/5th BO, 2/1st GY, 3/2nd RB, 1/4th BO",
+        gscore : "347063",
+        g_image : "'talkdirtytome_guitar.png'"
+    }},
+{ value : "Cyanide by Metallica", 
+        data : {
+        shortname : "dlc91",
+        title : "Cyanide",
+        artist : "Metallica",
+        gpath : "2/3rd BO, 2/4th BO, 2/4th GY, 3/After 3.7 beats, 3/4th Y",
+        gscore : "762150",
+        g_image : "'dlc91_guitar.png'"
+    }},
+{ value : "When You Were Young by The Killers", 
+        data : {
+        shortname : "whenyouwereyoung",
+        title : "When You Were Young",
+        artist : "The Killers",
+        gpath : "2/2.2 beats after 1st RB, 2/1st GYB, 3/NN, 2/After 2 beats",
+        gscore : "287466",
+        g_image : "'whenyouwereyoung_guitar.png'"
+    }},
+{ value : "Kool Thing by Sonic Youth", 
+        data : {
+        shortname : "koolthing",
+        title : "Kool Thing",
+        artist : "Sonic Youth",
+        gpath : "2/7th GYB, 2/4th G, 3/After 0 beats, 2/2nd G",
+        gscore : "329568",
+        g_image : "'koolthing_guitar.png'"
+    }},
+{ value : "Movin' Out by Aerosmith", 
+        data : {
+        shortname : "movinout",
+        title : "Movin' Out",
+        artist : "Aerosmith",
+        gpath : "3/2nd R, 2/0.36 beats after 25th O, 3/7th B, 2/36th G",
+        gscore : "381264",
+        g_image : "'movinout_guitar.png'"
+    }},
+{ value : "Dream On by Aerosmith", 
+        data : {
+        shortname : "dreamon",
+        title : "Dream On",
+        artist : "Aerosmith",
+        gpath : "2/NN, 2/After 1.6 beats, 2/After 0 beats, 2/After 0 beats, 2/2nd RB",
+        gscore : "239467",
+        g_image : "'dreamon_guitar.png'"
+    }},
+{ value : "The Arsonist by Thrice", 
+        data : {
+        shortname : "dlc27",
+        title : "The Arsonist",
+        artist : "Thrice",
+        gpath : "2/9th B, 2/1 beats after NN, 3/5th YB",
+        gscore : "349601",
+        g_image : "'dlc27_guitar.png'"
+    }},
+{ value : "Any Way You Want It by Journey", 
+        data : {
+        shortname : "dlc10",
+        title : "Any Way You Want It",
+        artist : "Journey",
+        gpath : "3/NN, 2/3rd Y, 3/1st O",
+        gscore : "264941",
+        g_image : "'dlc10_guitar.png'"
+    }},
+{ value : "Let the Music Do the Talking by Aerosmith", 
+        data : {
+        shortname : "letthemusicdothetalking",
+        title : "Let the Music Do the Talking",
+        artist : "Aerosmith",
+        gpath : "3/0.68 beats after 6th B, 2/0.68 beats after 2nd GR, 2/3rd YB, 1/2.1 beats after 2nd GR, 2/2nd G",
+        gscore : "324254",
+        g_image : "'letthemusicdothetalking_guitar.png'"
+    }},
+{ value : "Stay Clean by Motörhead", 
+        data : {
+        shortname : "dlc45",
+        title : "Stay Clean",
+        artist : "Motörhead",
+        gpath : "2/2nd YO, 3/2nd GYB, 3/1st BO",
+        gscore : "299406",
+        g_image : "'dlc45_guitar.png'"
+    }},
+{ value : "Yellow by Coldplay", 
+        data : {
+        shortname : "dlc72",
+        title : "Yellow",
+        artist : "Coldplay",
+        gpath : "3/NN, 3/8th RB, 3/9th GR",
+        gscore : "405722",
+        g_image : "'dlc72_guitar.png'"
+    }},
+{ value : "Knights of Cydonia by Muse", 
+        data : {
+        shortname : "knightsofcydonia",
+        title : "Knights of Cydonia",
+        artist : "Muse",
+        gpath : "2/15th B, 3/10th Y, 2/NN, 2/5th O",
+        gscore : "514120",
+        g_image : "'knightsofcydonia_guitar.png'"
+    }},
+{ value : "Always on the Run by Lenny Kravitz", 
+        data : {
+        shortname : "alwaysontherun",
+        title : "Always on the Run",
+        artist : "Lenny Kravitz",
+        gpath : "2/2nd YB, 2/1st Y, 2/1st YB, 2/39th G",
+        gscore : "302808",
+        g_image : "'alwaysontherun_guitar.png'"
+    }},
+{ value : "Suck My Kiss by Red Hot Chili Peppers", 
+        data : {
+        shortname : "suckmykiss",
+        title : "Suck My Kiss",
+        artist : "Red Hot Chili Peppers",
+        gpath : "3/2nd GB, 3/9th G, 3/1st YO",
+        gscore : "265803",
+        g_image : "'suckmykiss_guitar.png'"
+    }},
+{ value : "Mississippi Queen by Mountain", 
+        data : {
+        shortname : "mississippiqueen",
+        title : "Mississippi Queen",
+        artist : "Mountain",
+        gpath : "2/2nd G, 2/2nd O, 2/1st RB",
+        gscore : "130069",
+        g_image : "'mississippiqueen_guitar.png'"
+    }},
+{ value : "Helicopter by Bloc Party", 
+        data : {
+        shortname : "helicopter",
+        title : "Helicopter",
+        artist : "Bloc Party",
+        gpath : "2/1st RB, 3/2nd GR, 4/32nd O",
+        gscore : "353286",
+        g_image : "'helicopter_guitar.png'"
+    }},
+{ value : "Paranoid by Black Sabbath", 
+        data : {
+        shortname : "paranoid",
+        title : "Paranoid",
+        artist : "Black Sabbath",
+        gpath : "2/2nd RYB, 1/NN, 3/1st YB, 2/2nd RYB",
+        gscore : "352040",
+        g_image : "'paranoid_guitar.png'"
+    }},
+{ value : "For the Love of God by Steve Vai", 
+        data : {
+        shortname : "dlc63",
+        title : "For the Love of God",
+        artist : "Steve Vai",
+        gpath : "1/3rd R, 2/3rd Y, 2/17th O, 2/NN, 2/3rd O",
+        gscore : "395534",
+        g_image : "'dlc63_guitar.png'"
+    }},
+{ value : "Story of My Life by Social Distortion", 
+        data : {
+        shortname : "storyofmylife",
+        title : "Story of My Life",
+        artist : "Social Distortion",
+        gpath : "3/1st B, 1/7th YO, 1/7 beats after 1st Y, 1/NN, 1/4th Y, 1/2nd RB, 1/2.7 beats after 1st GRY, 1/1st RYB, 2/1.9 beats after 3rd O, 2/5th R, 1/2nd GR",
+        gscore : "465394",
+        g_image : "'storyofmylife_guitar.png'"
+    }},
+{ value : "We Three Kings by Steve Ouimette", 
+        data : {
+        shortname : "dlc36",
+        title : "We Three Kings",
+        artist : "Steve Ouimette",
+        gpath : "3/After 0 beats, 1/10th GR, 2/NN, 3/2nd B",
+        gscore : "343916",
+        g_image : "'dlc36_guitar.png'"
+    }},
+{ value : "Slash Guitar Battle by Slash", 
+        data : {
+        shortname : "dlc2",
+        title : "Slash Guitar Battle",
+        artist : "Slash",
+        gpath : "2/10th R, 2/2nd B, 2/6th B, 2/18th B, 4/8th G",
+        gscore : "470311",
+        g_image : "'dlc2_guitar.png'"
+    }},
+{ value : "Closer by Lacuna Coil", 
+        data : {
+        shortname : "closer",
+        title : "Closer",
+        artist : "Lacuna Coil",
+        gpath : "3/NN, 3/NN, 2/10th G",
+        gscore : "277574",
+        g_image : "'closer_guitar.png'"
+    }},
+{ value : "Heroes of Our Time by DragonForce", 
+        data : {
+        shortname : "dlc80",
+        title : "Heroes of Our Time",
+        artist : "DragonForce",
+        gpath : "2/After 1.1 beats, 2/3rd B, 2/10th Y, 2/4th R, 2/3 beats after 2nd RYB, 2/NN, 3/7th G, 2/NN, 4/NN, 1/NN",
+        gscore : "781874",
+        g_image : "'dlc80_guitar.png'"
+    }},
+{ value : "In the Belly of a Shark by Gallows", 
+        data : {
+        shortname : "bellyofashark",
+        title : "In the Belly of a Shark",
+        artist : "Gallows",
+        gpath : "2/0.52 beats after 1st RYB, 2/NN, 2/0.6 beats after 1st O, 2/18th GY",
+        gscore : "336270",
+        g_image : "'bellyofashark_guitar.png'"
+    }},

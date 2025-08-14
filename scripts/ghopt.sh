@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chopt_cmd="wine GHOpt.exe"
+chopt_cmd="wine CHOpt.exe"
 yaml_file="gh3_songs.yml"
 
 rm -rf paths
@@ -30,7 +30,7 @@ find . -type f -name "*.mid.qb.xen" | while read -r chart_file; do
     guitar_output="${clean_title}_guitar.png"
 
     # Run GHOpt
-    chopt_output=$($chopt_cmd -f "$chart_file" --squeeze 40 --engine gh3 -o "$guitar_output")
+    chopt_output=$($chopt_cmd -f "$chart_file" --engine gh3 -o "$guitar_output")
 
     # Extract clean gpath (remove \r and trailing spaces)
     guitar_path=$(echo "$chopt_output" | \
@@ -52,8 +52,10 @@ find . -type f -name "*.mid.qb.xen" | while read -r chart_file; do
 
     guitar_path_image="'$guitar_output'"
 
+    title_artist="$title by $artist"
+
     # Final JSON-like output
-    template='{ value : "'"$title"'", 
+    template='{ value : "'"$title_artist"'", 
         data : {
         shortname : "'"$shortname"'",
         title : "'"$title"'",
