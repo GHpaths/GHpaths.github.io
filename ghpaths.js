@@ -440,15 +440,6 @@ const songs = [
         gscore : "446528",
         g_image : "'loveinanelevator_guitar.png'"
     }},
-{ value : "Dream On", 
-        data : {
-        shortname : "dlc37",
-        title : "Dream On",
-        artist : "Aerosmith",
-        gpath : "2/NN, 2/After 1.7 beats, 2/After 0 beats, 2/After 0 beats, 2/4th RO",
-        gscore : "235127",
-        g_image : "'dlc37_guitar.png'"
-    }},
 { value : "Mama Kin", 
         data : {
         shortname : "mamakin",
