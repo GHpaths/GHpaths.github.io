@@ -14,6 +14,12 @@ if ! command -v yq &> /dev/null; then
     exit 1
 fi
 
+# Check if ImageMagick is installed
+if ! command -v convert &> /dev/null || ! command -v identify &> /dev/null; then
+    echo "ImageMagick is required but not installed. Please install ImageMagick (https://imagemagick.org/)"
+    exit 1
+fi
+
 find . -type f -name "*.mid.qb.xen" | while read -r chart_file; do
     chart_base=$(basename "$chart_file")
     shortname="${chart_base%.mid.qb.xen}"
@@ -29,10 +35,10 @@ find . -type f -name "*.mid.qb.xen" | while read -r chart_file; do
 
     guitar_output="${clean_title}_guitar.png"
 
-    # Run GHOpt
+    # Run CHOpt
     chopt_output=$($chopt_cmd -f "$chart_file" --engine gh3 -o "$guitar_output")
 
-    # Extract clean gpath (remove \r and trailing spaces)
+    # Extract clean gpath
     guitar_path=$(echo "$chopt_output" | \
     grep -v "Optimising" | \
     sed -e 's/\r//g' -e 's/ ([^(]*)//g' | \
@@ -40,8 +46,8 @@ find . -type f -name "*.mid.qb.xen" | while read -r chart_file; do
         gsub(/: /, "/", $0);
         gsub(/: /, ",", $0);
         gsub("/ ", "/", $0);
-        gsub(/\n/, "", $0);       # remove remaining newlines
-        gsub(/^[ \t]+|[ \t]+$/, ""); # trim leading/trailing spaces
+        gsub(/\n/, "", $0);
+        gsub(/^[ \t]+|[ \t]+$/, "");
         if (NR > 1 && items) printf ", ";
         printf "%s", $0;
         items=1
@@ -53,6 +59,26 @@ find . -type f -name "*.mid.qb.xen" | while read -r chart_file; do
     guitar_path_image="'$guitar_output'"
 
     title_artist="$title by $artist"
+
+    # --- Image Modification: Add white bar + title and artist text with custom font ---
+    width=$(identify -format "%w" "$guitar_output")
+    font_path="./Bordello.otf"
+
+    if [ ! -f "$font_path" ]; then
+        echo "Font file '$font_path' not found. Please place Bordello.otf in the script directory."
+        exit 1
+    fi
+
+    # Prepare combined text (title + artist) on two lines
+    label_text="$title\n$artist"
+
+    magick "$guitar_output" \
+        \( -size ${width}x100 xc:white \) \
+        -gravity north -composite \
+        -gravity north \
+        -font "$font_path" -fill black -pointsize 36 \
+        -annotate +0+10 "$label_text" \
+        "$guitar_output"
 
     # Final JSON-like output
     template='{ value : "'"$title_artist"'", 
