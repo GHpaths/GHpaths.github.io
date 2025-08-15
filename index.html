@@ -23,6 +23,7 @@
                     GenericMadScientist.<br>
                     Neversoft Guitar Hero research by <a href="https://x.com/AFMolendijk" target="_blank">AddyMills</a>.<br>
                     Additional Programming from <a href="https://github.com/scoot556" target="_blank">Scoot556</a>.<br>
+                    Leaderboard data pulled from <a href="https://scorehero.com/" target="_blank">ScoreHero</a>.<br>
                     Inspired by <a href="https://rbpv.online/" target="_blank">RBPV.online</a>.<br>
                     <strong><a href="https://github.com/GenericMadScientist/CHOpt/blob/main/misc/How-to-read-paths.md" target="_blank">Learn how to read these paths.</a></strong><br>
                     Contact me on <a href="https://x.com/FregRB" target="_blank">Twitter</a> for any suggestions/bug reports.<br>
@@ -464,7 +465,7 @@ const pathHtml = `
                 if (currentInstrument === 'g' || currentInstrument === 'b') {
                     // Use the current site for Pro Lead and Pro Bass
                     // old url = `https://raw.githubusercontent.com/mattfreg/FNF_ProLeaderboards/main/leaderboards/season6/${songId}/Solo_Peripheral${currentInstrument === 'g' ? 'Guitar' : 'Bass'}_0.json`;
-                    url = ` https://raw.githubusercontent.com/GHpaths/scoreheroleaderboard_scrape/refs/heads/main/leaderboards/${songId}_all_leaderboards.json`;
+                    url = `https://raw.githubusercontent.com/GHpaths/GHpaths.github.io/refs/heads/main/leaderboards/${songId}_all_leaderboards.json`;
 
                 } else {
                     // Use the alternative site for other instruments
@@ -475,7 +476,7 @@ const pathHtml = `
                         d: 'Drums'
                     };
                     const selectedInstrument = instrumentMap[currentInstrument];
-                    url = `https://raw.githubusercontent.com/GHpaths/scoreheroleaderboard_scrape/refs/heads/main/leaderboards/impulse_all_leaderboards.json`;
+                    url = `https://raw.githubusercontent.com/GHpaths/GHpaths.github.io/refs/heads/main/leaderboards/${songId}_all_leaderboards.json`;
                 }
 
                 const response = await fetch(url);

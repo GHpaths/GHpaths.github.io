@@ -5,7 +5,6 @@ import puppeteer from "puppeteer";
 
 // --- Config ---
 const YAML_FILE = "./gh3song_leaderboards.yml";
-// Save directly in repo so Git can commit them
 const OUTPUT_DIR = path.join(process.cwd(), "leaderboards");
 
 // Ensure output directory exists
@@ -53,6 +52,26 @@ async function scrapeLeaderboard(url) {
   return data;
 }
 
+// --- Helper function with retries ---
+async function scrapeWithRetry(url, retries = 3, delay = 5000) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      console.log(`Scraping ${url} (Attempt ${attempt})...`);
+      const data = await scrapeLeaderboard(url);
+      return data;
+    } catch (err) {
+      console.error(`Attempt ${attempt} failed for ${url}:`, err.message);
+      if (attempt < retries) {
+        console.log(`Retrying in ${delay / 1000}s...`);
+        await new Promise((res) => setTimeout(res, delay));
+      } else {
+        console.log(`Failed after ${retries} attempts: ${url}`);
+        return [];
+      }
+    }
+  }
+}
+
 // --- Main function ---
 async function main() {
   console.log("Reading YAML file...");
@@ -65,12 +84,10 @@ async function main() {
       continue;
     }
 
-    console.log(`Scraping ${shortname} from ${info.leaderboards}...`);
     try {
-      const leaderboard = await scrapeLeaderboard(info.leaderboards);
+      const leaderboard = await scrapeWithRetry(info.leaderboards);
       const outPath = path.join(OUTPUT_DIR, `${shortname}_all_leaderboards.json`);
 
-      // Write JSON to repo folder
       fs.writeFileSync(outPath, JSON.stringify({ entries: leaderboard }, null, 2));
       console.log(`Saved ${outPath} with ${leaderboard.length} entries.`);
     } catch (err) {
