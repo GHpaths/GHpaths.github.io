@@ -13,63 +13,74 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 }
 
 // --- Helper function to scrape a single leaderboard ---
-async function scrapeLeaderboard(url) {
+async function scrapeLeaderboard(baseUrl) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
-  const page = await browser.newPage();
 
-  try {
-    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
-    await page.waitForSelector("table", { timeout: 15000 });
-  } catch (err) {
-    console.error(`Timeout loading ${url}:`, err);
-    await browser.close();
-    return [];
+  const allData = [];
+
+  // Loop over the first 2 pages
+  for (let pageNum = 1; pageNum <= 2; pageNum++) {
+    const url = pageNum === 1 ? baseUrl : `${baseUrl}&page=${pageNum}`;
+    const page = await browser.newPage();
+
+    try {
+      console.log(`Scraping ${url}...`);
+      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
+      await page.waitForSelector("table", { timeout: 15000 });
+    } catch (err) {
+      console.error(`Timeout loading ${url}:`, err);
+      await page.close();
+      continue; // skip to next page instead of failing
+    }
+
+    const data = await page.evaluate(() => {
+      const rows = Array.from(document.querySelectorAll("table tr")).slice(1);
+      return rows
+        .map((row) => {
+          const cols = row.querySelectorAll("td");
+          if (!cols || cols.length < 11) return null;
+          const rankText = cols[0].innerText.trim();
+          if (!/^\d/.test(rankText)) return null;
+          return {
+            rank: rankText,
+            player: cols[1].innerText.trim(),
+            score: cols[3].innerText.trim(),
+            Percent: cols[7].innerText.trim(),
+            platform: cols[2].innerText.trim(),
+          };
+        })
+        .filter(Boolean);
+    });
+
+    allData.push(...data);
+    await page.close();
   }
 
-  const data = await page.evaluate(() => {
-    const rows = Array.from(document.querySelectorAll("table tr")).slice(1);
-    return rows
-      .map((row) => {
-        const cols = row.querySelectorAll("td");
-        if (!cols || cols.length < 4) return null;
-        const rankText = cols[0].innerText.trim();
-        if (!/^\d/.test(rankText)) return null;
-        return {
-          rank: rankText,
-          player: cols[1].innerText.trim(),
-          score: cols[3].innerText.trim(),
-          Percent: cols[7].innerText.trim(),
-          platform: cols[2].innerText.trim(),
-        };
-      })
-      .filter(Boolean);
-  });
-
   await browser.close();
-  return data;
+  return allData;
 }
 
 // --- Helper function with retries ---
-async function scrapeWithRetry(url, retries = 3, delay = 5000) {
-  for (let attempt = 1; attempt <= retries; attempt++) {
+async function scrapeWithRetry(url, maxRetries = 3) {
+  let attempt = 0;
+  while (attempt < maxRetries) {
+    attempt++;
+    console.log(`Scraping ${url} (Attempt ${attempt})...`);
     try {
-      console.log(`Scraping ${url} (Attempt ${attempt})...`);
       const data = await scrapeLeaderboard(url);
-      return data;
-    } catch (err) {
-      console.error(`Attempt ${attempt} failed for ${url}:`, err.message);
-      if (attempt < retries) {
-        console.log(`Retrying in ${delay / 1000}s...`);
-        await new Promise((res) => setTimeout(res, delay));
-      } else {
-        console.log(`Failed after ${retries} attempts: ${url}`);
-        return [];
+      if (data.length > 0) {
+        return data;
       }
+      console.warn(`No entries found on attempt ${attempt}.`);
+    } catch (err) {
+      console.error(`Error scraping ${url} (Attempt ${attempt}):`, err.message);
     }
   }
+  console.error(`Failed to scrape ${url} after ${maxRetries} attempts.`);
+  return null; // signal failure
 }
 
 // --- Main function ---
@@ -84,14 +95,23 @@ async function main() {
       continue;
     }
 
-    try {
-      const leaderboard = await scrapeWithRetry(info.leaderboards);
-      const outPath = path.join(OUTPUT_DIR, `${shortname}_all_leaderboards.json`);
+    console.log(`Scraping ${shortname} from ${info.leaderboards}...`);
+    const leaderboard = await scrapeWithRetry(info.leaderboards, 3);
 
-      fs.writeFileSync(outPath, JSON.stringify({ entries: leaderboard }, null, 2));
+    if (leaderboard && leaderboard.length > 0) {
+      const outPath = path.join(
+        OUTPUT_DIR,
+        `${shortname}_all_leaderboards.json`
+      );
+      fs.writeFileSync(
+        outPath,
+        JSON.stringify({ entries: leaderboard }, null, 2)
+      );
       console.log(`Saved ${outPath} with ${leaderboard.length} entries.`);
-    } catch (err) {
-      console.error(`Error scraping ${shortname}:`, err);
+    } else {
+      console.warn(
+        `⚠️ Skipping save for ${shortname}, scraping failed after retries.`
+      );
     }
   }
 
