@@ -680,25 +680,25 @@
       "platform": "PS2"
     },
     {
-      "rank": "99th",
+      "rank": "61st",
+      "player": "Malyyz",
+      "score": "352,686",
+      "Percent": "100%",
+      "platform": "360"
+    },
+    {
+      "rank": "100th",
       "player": "pman5595",
       "score": "352,678",
       "Percent": "100%",
       "platform": "360"
     },
     {
-      "rank": "98th",
+      "rank": "99th",
       "player": "RichardGHP",
       "score": "352,678",
       "Percent": "100%",
       "platform": "PS3"
-    },
-    {
-      "rank": "98th",
-      "player": "KilljoyRPMX",
-      "score": "352,678",
-      "Percent": "100%",
-      "platform": "360"
     }
   ]
 }
